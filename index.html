@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudentRecords</title>
+
+    <style>
+        table {
+            width: 70%;
+            font: 17px Calibri;
+        }
+        table, th, td {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body onload="createTable()">
+    <p>
+        <input type="button" id="addRow" value="Add New Row" onclick="addRow()" />
+    </p>
+
+    <div id="cont"></div>
+
+    <p><input type="button" id="bt" value="Submit Data" onclick="submit()" /></p>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
